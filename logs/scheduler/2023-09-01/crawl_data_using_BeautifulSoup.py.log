@@ -1,0 +1,285 @@
+[2023-09-01T23:24:13.754+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:13.758+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:24:13.766+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:13.765+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:14.477+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:14.476+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:24:14.491+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:14.714+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:14.713+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:24:14.962+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:14.962+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-08-31T00:00:00+00:00, run_after=2023-09-01T00:00:00+00:00
+[2023-09-01T23:24:15.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 1.273 seconds
+[2023-09-01T23:24:16.173+0000] {processor.py:157} INFO - Started process (PID=33) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:16.179+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:24:16.189+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:16.188+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:16.718+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:16.718+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:24:16.734+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:16.784+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:16.784+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:24:16.823+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:16.823+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:24:16.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.716 seconds
+[2023-09-01T23:24:47.429+0000] {processor.py:157} INFO - Started process (PID=46) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:47.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:24:47.438+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:47.437+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:47.742+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:47.742+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:24:47.751+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:24:47.797+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:47.797+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:24:47.822+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:24:47.822+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:24:47.838+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.416 seconds
+[2023-09-01T23:25:16.689+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:25:16.692+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:25:16.698+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:25:16.698+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:25:16.805+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:25:16.805+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:25:16.827+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:25:16.886+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:25:16.885+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:25:16.908+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:25:16.908+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:25:16.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.240 seconds
+[2023-09-01T23:25:47.188+0000] {processor.py:157} INFO - Started process (PID=64) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:25:47.192+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:25:47.198+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:25:47.197+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:25:47.298+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:25:47.298+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:25:47.308+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:25:47.340+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:25:47.339+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:25:47.361+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:25:47.361+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:25:47.377+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.196 seconds
+[2023-09-01T23:26:12.279+0000] {processor.py:157} INFO - Started process (PID=72) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:26:12.285+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:26:12.293+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:26:12.292+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:26:12.432+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:26:12.431+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:26:12.448+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:26:12.523+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:26:12.523+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:26:12.550+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:26:12.550+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:26:12.571+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.304 seconds
+[2023-09-01T23:26:42.989+0000] {processor.py:157} INFO - Started process (PID=81) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:26:42.993+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:26:42.998+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:26:42.998+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:26:43.099+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:26:43.099+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:26:43.111+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:26:43.164+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:26:43.163+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:26:43.190+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:26:43.190+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:26:43.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.224 seconds
+[2023-09-01T23:27:13.626+0000] {processor.py:157} INFO - Started process (PID=90) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:27:13.629+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:27:13.634+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:27:13.633+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:27:13.741+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:27:13.741+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:27:13.753+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:27:13.790+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:27:13.790+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:27:13.816+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:27:13.815+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:27:13.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.212 seconds
+[2023-09-01T23:27:43.990+0000] {processor.py:157} INFO - Started process (PID=99) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:27:43.994+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:27:44.000+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:27:43.999+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:27:44.097+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:27:44.097+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:27:44.112+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:27:44.150+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:27:44.150+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:27:44.174+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:27:44.174+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:27:44.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.208 seconds
+[2023-09-01T23:28:14.516+0000] {processor.py:157} INFO - Started process (PID=108) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:28:14.525+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:28:14.533+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:28:14.532+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:28:14.659+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:28:14.659+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:28:14.676+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:28:14.740+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:28:14.739+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:28:14.777+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:28:14.777+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:28:14.801+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.306 seconds
+[2023-09-01T23:28:45.015+0000] {processor.py:157} INFO - Started process (PID=117) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:28:45.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:28:45.031+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:28:45.031+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:28:45.167+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:28:45.166+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:28:45.183+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:28:45.227+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:28:45.227+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:28:45.257+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:28:45.256+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:28:45.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.270 seconds
+[2023-09-01T23:29:15.793+0000] {processor.py:157} INFO - Started process (PID=126) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:29:15.796+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:29:15.802+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:29:15.802+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:29:15.933+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:29:15.932+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:29:15.950+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:29:15.994+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:29:15.993+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:29:16.025+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:29:16.024+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:29:16.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.256 seconds
+[2023-09-01T23:31:57.872+0000] {processor.py:157} INFO - Started process (PID=30) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:31:57.877+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:31:57.887+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:31:57.885+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:31:58.481+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:31:58.481+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:31:58.511+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:31:58.746+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:31:58.745+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:31:58.803+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:31:58.803+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:31:58.842+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.979 seconds
+[2023-09-01T23:32:29.198+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:32:29.205+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:32:29.213+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:32:29.212+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:32:29.511+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:32:29.511+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:32:29.519+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:32:29.548+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:32:29.548+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:32:29.568+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:32:29.567+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:32:29.584+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.393 seconds
+[2023-09-01T23:33:00.144+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:33:00.193+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:33:00.226+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:33:00.224+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:33:00.864+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:33:00.863+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:33:00.876+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:33:00.909+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:33:00.909+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:33:00.938+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:33:00.938+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:33:00.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.840 seconds
+[2023-09-01T23:33:31.719+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:33:31.722+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:33:31.732+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:33:31.729+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:33:32.368+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:33:32.368+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:33:32.376+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:33:32.405+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:33:32.405+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:33:32.429+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:33:32.429+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:33:32.447+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.744 seconds
+[2023-09-01T23:34:02.852+0000] {processor.py:157} INFO - Started process (PID=65) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:02.857+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:34:02.879+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:02.878+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:03.302+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:03.302+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:34:03.310+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:03.350+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:03.350+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:34:03.370+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:03.369+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:34:03.384+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.548 seconds
+[2023-09-01T23:34:11.217+0000] {processor.py:157} INFO - Started process (PID=67) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:11.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:34:11.226+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:11.225+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:11.463+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:11.463+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:34:11.471+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:11.506+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:11.506+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:34:11.524+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:11.523+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:34:11.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.328 seconds
+[2023-09-01T23:34:41.889+0000] {processor.py:157} INFO - Started process (PID=76) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:41.892+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:34:41.897+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:41.896+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:42.166+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:42.166+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:34:42.174+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:34:42.207+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:42.207+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:34:42.228+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:34:42.228+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:34:42.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.363 seconds
+[2023-09-01T23:35:12.619+0000] {processor.py:157} INFO - Started process (PID=85) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:35:12.624+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:35:12.629+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:35:12.629+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:35:12.740+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:35:12.740+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:35:12.755+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:35:12.801+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:35:12.801+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:35:12.826+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:35:12.826+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:35:12.844+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.232 seconds
+[2023-09-01T23:35:43.115+0000] {processor.py:157} INFO - Started process (PID=94) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:35:43.119+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:35:43.123+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:35:43.122+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:35:43.218+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:35:43.218+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:35:43.228+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:35:43.260+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:35:43.259+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:35:43.280+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:35:43.280+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:35:43.296+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.185 seconds
+[2023-09-01T23:36:13.695+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:36:13.699+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:36:13.703+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:36:13.703+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:36:13.793+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:36:13.792+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:36:13.802+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:36:13.845+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:36:13.844+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:36:13.868+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:36:13.868+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:36:13.883+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.193 seconds
+[2023-09-01T23:36:43.429+0000] {processor.py:157} INFO - Started process (PID=112) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:36:43.434+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:36:43.443+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:36:43.442+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:36:43.598+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:36:43.597+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:36:43.613+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:36:43.794+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:36:43.794+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:36:43.823+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:36:43.823+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:36:43.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.431 seconds
+[2023-09-01T23:38:22.434+0000] {processor.py:157} INFO - Started process (PID=29) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:38:22.440+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:38:22.446+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:38:22.445+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:38:23.001+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:38:23.001+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:38:23.035+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:38:23.256+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:38:23.255+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:38:23.299+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:38:23.299+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:38:23.349+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.924 seconds
+[2023-09-01T23:38:54.001+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:38:54.007+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:38:54.021+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:38:54.016+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:38:54.726+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:38:54.725+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:38:54.736+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:38:54.776+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:38:54.775+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:38:54.801+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:38:54.800+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:38:54.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.834 seconds
+[2023-09-01T23:39:25.277+0000] {processor.py:157} INFO - Started process (PID=49) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:39:25.280+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:39:25.286+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:39:25.285+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:39:25.610+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:39:25.610+0000] {crawl_data_using_BeautifulSoup.py:87} WARNING - This log will not show up!
+[2023-09-01T23:39:25.618+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:39:25.648+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:39:25.648+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:39:25.667+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:39:25.667+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:39:25.683+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.414 seconds
+[2023-09-01T23:47:52.892+0000] {processor.py:157} INFO - Started process (PID=30) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:47:52.903+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:47:52.921+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:47:52.918+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:47:54.032+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:47:54.446+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:47:54.444+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:47:54.504+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:47:54.503+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:47:54.561+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 1.698 seconds
+[2023-09-01T23:47:54.922+0000] {processor.py:157} INFO - Started process (PID=32) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:47:54.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:47:54.947+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:47:54.945+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:47:56.094+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:47:56.234+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:47:56.231+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:47:56.345+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:47:56.342+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:47:56.415+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 1.512 seconds
+[2023-09-01T23:48:26.598+0000] {processor.py:157} INFO - Started process (PID=41) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:48:26.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:48:26.605+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:48:26.604+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:48:27.004+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:48:27.040+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:48:27.040+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:48:27.063+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:48:27.062+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:48:27.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.494 seconds
+[2023-09-01T23:49:44.213+0000] {processor.py:157} INFO - Started process (PID=30) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:49:44.218+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:49:44.225+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:49:44.224+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:49:44.736+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:49:44.978+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:49:44.976+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:49:45.023+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:49:45.023+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:49:45.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.854 seconds
+[2023-09-01T23:49:45.156+0000] {processor.py:157} INFO - Started process (PID=32) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:49:45.160+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:49:45.164+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:49:45.164+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:49:45.651+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:49:45.701+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:49:45.701+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:49:45.735+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:49:45.735+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:49:45.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.610 seconds
+[2023-09-01T23:50:16.520+0000] {processor.py:157} INFO - Started process (PID=41) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:50:16.524+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:50:16.528+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:50:16.528+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:50:17.123+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:50:17.159+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:50:17.159+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:50:17.180+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:50:17.179+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:50:17.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.694 seconds
+[2023-09-01T23:51:32.413+0000] {processor.py:157} INFO - Started process (PID=30) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:51:32.417+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:51:32.426+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:51:32.425+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:51:33.150+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:51:33.542+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:51:33.541+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:51:33.604+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:51:33.603+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:51:33.698+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 1.293 seconds
+[2023-09-01T23:51:34.618+0000] {processor.py:157} INFO - Started process (PID=32) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:51:34.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:51:34.641+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:51:34.640+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:51:35.365+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:51:35.528+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:51:35.522+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:51:35.915+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:51:35.914+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:51:36.017+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 1.411 seconds
+[2023-09-01T23:52:06.550+0000] {processor.py:157} INFO - Started process (PID=41) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:52:06.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:52:06.579+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:52:06.575+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:52:07.003+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:52:07.047+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:52:07.046+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:52:07.073+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:52:07.072+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:52:07.091+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.551 seconds
+[2023-09-01T23:52:37.706+0000] {processor.py:157} INFO - Started process (PID=49) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:52:37.713+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:52:37.741+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:52:37.739+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:52:38.596+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:52:38.677+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:52:38.676+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:52:38.704+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:52:38.704+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:52:38.724+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 1.060 seconds
+[2023-09-01T23:53:09.070+0000] {processor.py:157} INFO - Started process (PID=58) to work on /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:53:09.074+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_data_using_BeautifulSoup.py for tasks to queue
+[2023-09-01T23:53:09.078+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:53:09.077+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:53:09.307+0000] {processor.py:839} INFO - DAG(s) dict_keys(['website_crawler']) retrieved from /opt/airflow/dags/crawl_data_using_BeautifulSoup.py
+[2023-09-01T23:53:09.340+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:53:09.340+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-01T23:53:09.362+0000] {logging_mixin.py:151} INFO - [2023-09-01T23:53:09.362+0000] {dag.py:3677} INFO - Setting next_dagrun for website_crawler to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-01T23:53:09.380+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_data_using_BeautifulSoup.py took 0.315 seconds

@@ -1,0 +1,52 @@
+[2023-08-31T03:41:00.050+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: website_crawler.crawl_task scheduled__2023-08-30T00:00:00+00:00 [queued]>
+[2023-08-31T03:41:00.062+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: website_crawler.crawl_task scheduled__2023-08-30T00:00:00+00:00 [queued]>
+[2023-08-31T03:41:00.064+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2023-08-31T03:41:00.092+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): crawl_task> on 2023-08-30 00:00:00+00:00
+[2023-08-31T03:41:00.114+0000] {standard_task_runner.py:57} INFO - Started process 53 to run task
+[2023-08-31T03:41:00.132+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'website_crawler', 'crawl_task', 'scheduled__2023-08-30T00:00:00+00:00', '--job-id', '147', '--raw', '--subdir', 'DAGS_FOLDER/crawl_data_using_BeautifulSoup.py', '--cfg-path', '/tmp/tmpcjarksfx']
+[2023-08-31T03:41:00.142+0000] {standard_task_runner.py:85} INFO - Job 147: Subtask crawl_task
+[2023-08-31T03:41:00.433+0000] {task_command.py:415} INFO - Running <TaskInstance: website_crawler.crawl_task scheduled__2023-08-30T00:00:00+00:00 [running]> on host b053bf73ca11
+[2023-08-31T03:41:00.644+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='website_crawler' AIRFLOW_CTX_TASK_ID='crawl_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-30T00:00:00+00:00'
+[2023-08-31T03:41:01.358+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/crawl_data_using_BeautifulSoup.py", line 50, in crawl_section_pages
+    file_handler = logging.FileHandler('/Users/nguyenngocanh/Desktop/cohost AI/logs/test.txt')
+  File "/usr/local/lib/python3.8/logging/__init__.py", line 1147, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.8/logging/__init__.py", line 1176, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/nguyenngocanh/Desktop/cohost AI/logs/test.txt'
+[2023-08-31T03:41:01.386+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=website_crawler, task_id=crawl_task, execution_date=20230830T000000, start_date=20230831T034100, end_date=20230831T034101
+[2023-08-31T03:41:01.408+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 147 for task crawl_task ([Errno 2] No such file or directory: '/Users/nguyenngocanh/Desktop/cohost AI/logs/test.txt'; 53)
+[2023-08-31T03:41:01.475+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-08-31T03:41:01.547+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-09-02T10:13:11.384+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: website_crawler.crawl_task scheduled__2023-08-30T00:00:00+00:00 [queued]>
+[2023-09-02T10:13:11.921+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: website_crawler.crawl_task scheduled__2023-08-30T00:00:00+00:00 [queued]>
+[2023-09-02T10:13:11.945+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2023-09-02T10:13:13.112+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): crawl_task> on 2023-08-30 00:00:00+00:00
+[2023-09-02T10:13:13.965+0000] {standard_task_runner.py:57} INFO - Started process 68 to run task
+[2023-09-02T10:13:14.607+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'website_crawler', 'crawl_task', 'scheduled__2023-08-30T00:00:00+00:00', '--job-id', '247', '--raw', '--subdir', 'DAGS_FOLDER/crawl_data_using_BeautifulSoup.py', '--cfg-path', '/tmp/tmpvonxvy0t']
+[2023-09-02T10:13:14.864+0000] {standard_task_runner.py:85} INFO - Job 247: Subtask crawl_task
+[2023-09-02T10:13:16.614+0000] {task_command.py:415} INFO - Running <TaskInstance: website_crawler.crawl_task scheduled__2023-08-30T00:00:00+00:00 [running]> on host 9b7e267dee3b
+[2023-09-02T10:13:18.401+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='website_crawler' AIRFLOW_CTX_TASK_ID='crawl_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-30T00:00:00+00:00'
+[2023-09-02T10:13:51.639+0000] {local_task_job_runner.py:288} WARNING - DagRun timed out after 0:01:17.404324.
+[2023-09-02T10:14:18.555+0000] {local_task_job_runner.py:288} WARNING - DagRun timed out after 0:01:44.578691.
+[2023-09-02T10:14:18.721+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to skipped. Terminating instance.
+[2023-09-02T10:14:18.761+0000] {process_utils.py:131} INFO - Sending 15 to group 68. PIDs of all processes in the group: [68]
+[2023-09-02T10:14:18.781+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 68
+[2023-09-02T10:14:26.677+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-09-02T10:14:26.697+0000] {logging_mixin.py:151} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0xffff8a978670>
+[2023-09-02T10:14:26.717+0000] {logging_mixin.py:151} WARNING - Traceback (most recent call last):
+[2023-09-02T10:14:26.727+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/weakref.py", line 345, in remove
+[2023-09-02T10:14:26.738+0000] {logging_mixin.py:151} WARNING -     def remove(k, selfref=ref(self)):
+[2023-09-02T10:14:26.752+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 1634, in signal_handler
+[2023-09-02T10:14:26.762+0000] {logging_mixin.py:151} WARNING -     raise AirflowException("Task received SIGTERM signal")
+[2023-09-02T10:14:26.764+0000] {logging_mixin.py:151} WARNING - ***.exceptions.AirflowException: Task received SIGTERM signal
+[2023-09-02T10:15:18.851+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=68, name='airflow task ru', status='sleeping', started='10:13:13') did not respond to SIGTERM. Trying SIGKILL
+[2023-09-02T10:15:18.897+0000] {process_utils.py:86} INFO - Sending the signal 9 to group 68
+[2023-09-02T10:15:19.204+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=68, name='airflow task ru', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='10:13:13') (68) terminated with exit code -9
+[2023-09-02T10:15:19.213+0000] {standard_task_runner.py:172} ERROR - Job 247 was killed before it finished (likely due to running out of memory)

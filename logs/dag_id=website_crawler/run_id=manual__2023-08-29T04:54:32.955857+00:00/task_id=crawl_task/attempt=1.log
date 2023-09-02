@@ -1,0 +1,36 @@
+[2023-08-29T04:54:36.900+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: website_crawler.crawl_task manual__2023-08-29T04:54:32.955857+00:00 [queued]>
+[2023-08-29T04:54:36.936+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: website_crawler.crawl_task manual__2023-08-29T04:54:32.955857+00:00 [queued]>
+[2023-08-29T04:54:36.938+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2023-08-29T04:54:36.979+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): crawl_task> on 2023-08-29 04:54:32.955857+00:00
+[2023-08-29T04:54:36.998+0000] {standard_task_runner.py:57} INFO - Started process 56 to run task
+[2023-08-29T04:54:37.010+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'website_crawler', 'crawl_task', 'manual__2023-08-29T04:54:32.955857+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/crawl_data_using_BeautifulSoup.py', '--cfg-path', '/tmp/tmp3p2qvqh2']
+[2023-08-29T04:54:37.037+0000] {standard_task_runner.py:85} INFO - Job 113: Subtask crawl_task
+[2023-08-29T04:54:37.166+0000] {task_command.py:415} INFO - Running <TaskInstance: website_crawler.crawl_task manual__2023-08-29T04:54:32.955857+00:00 [running]> on host f38233847898
+[2023-08-29T04:54:37.474+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='website_crawler' AIRFLOW_CTX_TASK_ID='crawl_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-29T04:54:32.955857+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-29T04:54:32.955857+00:00'
+[2023-08-29T04:54:38.769+0000] {crawl_data_using_BeautifulSoup.py:40} INFO - <ul class="pagination">
+<li class="disabled-page"><span>«</span></li>
+<li class="active-page"><a href="/">1</a></li>
+<li><a href="/posts/2">2</a></li>
+<li><a href="/posts/3">3</a></li>
+<li><a href="/posts/4">4</a></li>
+<li><a href="/posts/5">5</a></li>
+<li><a href="/posts/6">6</a></li>
+<li class="disabled-page"><span>...</span></li>
+<li><a href="/posts/13">13</a></li>
+<li><a href="/posts/14">14</a></li>
+<li><a href="/posts/2">»</a></li>
+</ul>
+[2023-08-29T04:54:38.781+0000] {crawl_data_using_BeautifulSoup.py:42} INFO - 11
+[2023-08-29T04:54:38.786+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/crawl_data_using_BeautifulSoup.py", line 47, in crawl_section_pages
+    while start_page <= num_page:
+NameError: name 'start_page' is not defined
+[2023-08-29T04:54:38.875+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=website_crawler, task_id=crawl_task, execution_date=20230829T045432, start_date=20230829T045436, end_date=20230829T045438
+[2023-08-29T04:54:38.923+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 113 for task crawl_task (name 'start_page' is not defined; 56)
+[2023-08-29T04:54:39.041+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-08-29T04:54:39.103+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
