@@ -57,6 +57,11 @@ def find_num_of_pages_of_newfeeds(base_url):
     soup = BeautifulSoup(response.text, 'html.parser')
     ultag = soup.find_all('ul', {'class': 'pagination'})[0]
     num_of_elements = len(ultag.find_all('li'))
+
+    # handle exception num_page = 0
+    if num_of_elements <= 2:
+        return 0
+    
     num_page = int(ultag.find_all('li')[num_of_elements-2].text)
     return num_page
 
