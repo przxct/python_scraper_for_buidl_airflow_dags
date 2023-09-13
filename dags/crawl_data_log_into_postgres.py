@@ -75,7 +75,7 @@ def crawl_section_pages():
     current_page = 1
 
     # esablish postgres connection
-    pg_hook = PostgresHook(postgres_conn_id='postgres_local')
+    pg_hook = PostgresHook(postgres_conn_id='postgres_railway')
 
     postgres_insert_query = """ INSERT INTO test2(title, author, date, time, summary) 
                                 VALUES (%s,%s,%s,%s,%s)"""
@@ -89,6 +89,7 @@ def crawl_section_pages():
         for section in sections:
             new_row = get_fields_of_a_post(soup, section)
             # insert item to table
+            logging.info(new_row)
             pg_hook.run(postgres_insert_query, parameters=new_row)
 
         current_page = current_page + 1
@@ -117,19 +118,19 @@ crawl_task = PythonOperator(
     dag=dag
 )
 
-create_data_table = PostgresOperator(
-    task_id="create_data_table",
-    postgres_conn_id="postgres_local",
-    sql="sql/create_data_table.sql",
-    dag=dag
-)
+# create_data_table = PostgresOperator(
+#     task_id="create_data_table",
+#     postgres_conn_id="postgres_railway",
+#     sql="sql/create_data_table.sql",
+#     dag=dag
+# )
 
-drop_table = PostgresOperator(
-    task_id="drop_table",
-    postgres_conn_id="postgres_local",
-    sql="sql/drop_table.sql",
-    dag=dag
-)
+# drop_table = PostgresOperator(
+#     task_id="drop_table",
+#     postgres_conn_id="postgres_railway",
+#     sql="sql/drop_table.sql",
+#     dag=dag
+# )
 
-drop_table >> create_data_table >> crawl_task
+# drop_table >> create_data_table >> crawl_task
 
