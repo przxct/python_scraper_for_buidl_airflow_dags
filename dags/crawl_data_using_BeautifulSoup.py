@@ -104,10 +104,10 @@ default_args = {
 }
 
 dag = DAG(
-    'website_crawler',
+    'website_crawler_log_into_json_file',
     default_args=default_args,
     # schedule_interval='0 3 * * *',
-    schedule_interval='@daily',
+    # schedule_interval='@daily',
     dagrun_timeout=timedelta(minutes=1)
 )
 
