@@ -75,8 +75,8 @@ def crawl_section_pages():
 
     # Get the current working directory
     cwd = os.getcwd()
-    log_file_path = os.path.join(cwd, "dags", "result.json")
-    log_file = open(log_file_path, 'w', encoding='utf-8')
+    json_file_path = os.path.join(cwd, "dags", "result.json")
+    json_file = open(json_file_path, 'w', encoding='utf-8')
     json_data = {}
 
     while current_page <= num_page:
@@ -91,8 +91,8 @@ def crawl_section_pages():
 
         current_page = current_page + 1
 
-    json.dump(json_data, log_file, indent=4, ensure_ascii=False)
-    log_file.close()
+    json.dump(json_data, json_file, indent=4, ensure_ascii=False)
+    json_file.close()
 
 
 default_args = {
