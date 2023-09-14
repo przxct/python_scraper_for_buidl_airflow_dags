@@ -77,7 +77,7 @@ def crawl_section_pages():
     # esablish postgres connection
     pg_hook = PostgresHook(postgres_conn_id='postgres_railway')
 
-    postgres_insert_query = """ INSERT INTO test2(title, author, date, time, summary) 
+    postgres_insert_query = """ INSERT INTO store_crawled_data(title, author, date, time, summary) 
                                 VALUES (%s,%s,%s,%s,%s)"""
 
     while current_page <= num_page:
@@ -89,7 +89,7 @@ def crawl_section_pages():
         for section in sections:
             new_row = get_fields_of_a_post(soup, section)
             # insert item to table
-            logging.info(new_row)
+            # logging.info(new_row)
             pg_hook.run(postgres_insert_query, parameters=new_row)
 
         current_page = current_page + 1
@@ -104,33 +104,33 @@ default_args = {
 }
 
 dag = DAG(
-    'website_crawler',
+    'website_crawler_log_into_postgres',
     default_args=default_args,
     # schedule_interval='0 3 * * *',
-    schedule_interval='@daily',
+    # schedule_interval='@daily',
     dagrun_timeout=timedelta(minutes=1)
 )
 
-crawl_task = PythonOperator(
-    task_id='crawl_task',
+insert_table = PythonOperator(
+    task_id='insert_table',
     python_callable=crawl_section_pages,
     provide_context=True,  # Pass the task context to the function
     dag=dag
 )
 
-# create_data_table = PostgresOperator(
-#     task_id="create_data_table",
-#     postgres_conn_id="postgres_railway",
-#     sql="sql/create_data_table.sql",
-#     dag=dag
-# )
+create_data_table = PostgresOperator(
+    task_id="create_data_table",
+    postgres_conn_id="postgres_railway",
+    sql="sql/create_data_table.sql",
+    dag=dag
+)
 
-# drop_table = PostgresOperator(
-#     task_id="drop_table",
-#     postgres_conn_id="postgres_railway",
-#     sql="sql/drop_table.sql",
-#     dag=dag
-# )
+drop_table = PostgresOperator(
+    task_id="drop_table",
+    postgres_conn_id="postgres_railway",
+    sql="sql/drop_table.sql",
+    dag=dag
+)
 
-# drop_table >> create_data_table >> crawl_task
+drop_table >> create_data_table >> insert_table
 
