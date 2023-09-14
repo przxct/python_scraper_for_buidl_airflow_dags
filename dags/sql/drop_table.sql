@@ -1,2 +1,2 @@
 -- drop table
-DROP TABLE IF EXISTS test2;
+DROP TABLE IF EXISTS store_crawled_data;
