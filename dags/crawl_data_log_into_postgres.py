@@ -108,7 +108,7 @@ dag = DAG(
     default_args=default_args,
     # schedule_interval='0 3 * * *',
     # schedule_interval='@daily',
-    dagrun_timeout=timedelta(minutes=1)
+    dagrun_timeout=timedelta(hours=5)
 )
 
 insert_table = PythonOperator(
